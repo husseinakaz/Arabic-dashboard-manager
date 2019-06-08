@@ -8,7 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/icon.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/ar.css" rel="stylesheet" class="lang_css arabic">
+    <link href="css/en.css" rel="stylesheet" class="lang_css arabic">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,22 +21,22 @@
     <!--Start header-->
     <div class="row header_section">
         <div class="col-sm-3 col-xs-12 logo_area bring_right">
-            <h1 class="inline-block"><img src="img/logo.png" alt="">لوحة تحكم</h1>
+            <h1 class="inline-block"><img src="img/logo.png" alt="">Adminy admin panel</h1>
             <span class="glyphicon glyphicon-align-justify bring_left open_close_menu" data-toggle="tooltip"
                   data-placement="right" title="Tooltip on left"></span>
         </div>
         <div class="col-sm-3 col-xs-12 head_buttons_area bring_right hidden-xs">
             <div class="inline-block messages bring_right">
                 <span class="glyphicon glyphicon-envelope" data-toggle="tooltip" data-placement="left"
-                      title="الرسائل"><span class="notifications">9</span></span>
+                      title="messages"><span class="notifications">9</span></span>
             </div>
             <div class="inline-block full_screen bring_right hidden-xs">
                 <span class="glyphicon glyphicon-fullscreen" data-toggle="tooltip" data-placement="left"
-                      title="شاشة كاملة"></span>
+                      title="fullscreen"></span>
             </div>
         </div>
         <div class=" col-sm-4 col-xs-12 user_header_area bring_left left_text">
-            <span class="change_lang bring_left">EN</span>
+            <a href="index.php" class="change_lang bring_left">عربي</a>
 
             <div class="user_info inline-block">
                 <img src="img/user.jpg" alt="" class="img-circle">
@@ -55,51 +55,51 @@
             <div class="user_area">
                 <img class="img-thumbnail img-rounded bring_right" src="img/user.jpg">
 
-                <h1 class="h3">حسام جمال زوين</h1>
+                <h1 class="h3">Hosam Gamal Zewain</h1>
 
-                <p><a href="">بيانات المستخدم</a></p>
+                <p><a href="">User Info</a></p>
 
-                <p><a href="">تغيير كلمة المرور</a></p>
+                <p><a href="">Change password</a></p>
 
-                <p><a href="">المساعدة</a></p>
+                <p><a href="">Help!</a></p>
             </div>
             <div class="who_is_online">
-                <h3>العامليين حاليا علي النظام</h3>
+                <h3>Who is online</h3>
 
                 <div class="employee_online">
                     <img src="img/user.jpg" class="img-circle bring_right">
 
-                    <p>حسام جمال توفيق زوين</p>
+                    <p>Hosam Gamal Zewain</p>
 
-                    <p>مركز التقنية - جامعة المنصورة</p>
+                    <p>CITC - Mansoura UN</p>
                 </div>
                 <div class="employee_online">
                     <img src="img/user.jpg" class="img-circle bring_right">
 
-                    <p>حسام جمال توفيق زوين</p>
+                    <p>Hosam Gamal Zewain</p>
 
-                    <p>مركز التقنية - جامعة المنصورة</p>
+                    <p>CITC - Mansoura UN</p>
                 </div>
                 <div class="employee_online">
                     <img src="img/user.jpg" class="img-circle bring_right">
 
-                    <p>حسام جمال توفيق زوين</p>
+                    <p>Hosam Gamal Zewain</p>
 
-                    <p>مركز التقنية - جامعة المنصورة</p>
+                    <p>CITC - Mansoura UN</p>
                 </div>
                 <div class="employee_online">
                     <img src="img/user.jpg" class="img-circle bring_right">
 
-                    <p>حسام جمال توفيق زوين</p>
+                    <p>Hosam Gamal Zewain</p>
 
-                    <p>مركز التقنية - جامعة المنصورة</p>
+                    <p>CITC - Mansoura UN</p>
                 </div>
                 <div class="employee_online">
                     <img src="img/user.jpg" class="img-circle bring_right">
 
-                    <p>حسام جمال توفيق زوين</p>
+                    <p>Hosam Gamal Zewain</p>
 
-                    <p>مركز التقنية - جامعة المنصورة</p>
+                    <p>CITC - Mansoura UN</p>
                 </div>
             </div>
         </div>
@@ -110,31 +110,31 @@
             <div class="main_sidebar_wrapper">
                 <form class="form-inline search_box text-center">
                     <div class="form-group">
-                        <input type="search" class="form-control" placeholder="كلمة البحث">
+                        <input type="search" class="form-control" placeholder="Search Word">
                         <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
                         </button>
                     </div>
                 </form>
 
                 <ul>
-                    <li><span class="glyphicon glyphicon-home"></span><a href="index.html">الصفحة الرئيسية</a></li>
-                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.html">بيانات الموقع</a></li>
-                    <li><span class="glyphicon glyphicon-user"></span><a href="">إدارة الاعضاء</a>
+                    <li><span class="glyphicon glyphicon-home"></span><a href="index.php">Home Page</a></li>
+                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.php">Site Information</a></li>
+                    <li><span class="glyphicon glyphicon-user"></span><a href="">Mange Users</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_user.html">إضافة جديد</a></li>
-                            <li><a href="view_all_users.html">عرض الكل</a></li>
+                            <li><a href="add_new_user.php">Add new user</a></li>
+                            <li><a href="view_all_users.php">View all users</a></li>
                         </ul>
                     </li>
-                    <li><span class="glyphicon glyphicon-edit"></span><a href="">المواضييع والمقالات</a>
+                    <li><span class="glyphicon glyphicon-edit"></span><a href="">Mange Topics</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_all_topics.html">عرض الكل</a></li>
+                            <li><a href="add_new_topic.php">Add new topic</a></li>
+                            <li><a href="view_all_topics.php">View all topics</a></li>
                         </ul>
                     </li>
-                    <li><span class="glyphicon glyphicon-picture"></span><a href="">البوم الصور</a>
+                    <li><span class="glyphicon glyphicon-picture"></span><a href="">Photo Album</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_all_photos.html">عرض الكل</a></li>
+                            <li><a href="add_new_photo.php">Add new photo</a></li>
+                            <li><a href="view_all_photos.php">View all photos</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -149,60 +149,84 @@
                 <div class="home_pass hidden-xs">
                     <ul>
                         <li class="bring_right"><span class="glyphicon glyphicon-home "></span></li>
-                        <li class="bring_right"><a href="">المواضييع والمقالات</a></li>
-                        <li class="bring_right"><a href="">إضافة موضوع جديد</a></li>
+                        <li class="bring_right"><a href="">Admin panel home page</a></li>
                     </ul>
                 </div>
                 <!--/End system bath-->
                 <div class="page_content">
+                    <div class="page_content">
+                        <div class="quick_links text-center">
+                            <h1 class="heading_title">Quick links</h1>
+                            <a href="#" style="background-color: #c0392b">
+                                <h4>Website Home</h4>
+                            </a>
+                            <a href="options.php" style="background-color: #2980b9">
+                                <h4>Site Information</h4>
+                            </a>
+                            <a href="view_all_users.php" style="background-color: #8e44ad">
+                                <h4>View Users</h4>
+                            </a>
+                            <a href="add_new_topic.php" style="background-color: #d35400">
+                                <h4>Add Topic</h4>
+                            </a>
+                            <a href="add_new_photo.php" style="background-color: #2c3e50">
+                                <h4>Add photo</h4>
+                            </a>
+                        </div>
+                        <div class="home_statics text-center">
+                            <h1 class="heading_title">Website Statics</h1>
 
-                    <h1 class="heading_title">إضافة موضوع جديد</h1>
+                            <div style="background-color: #9b59b6">
+                                <span class="bring_right glyphicon glyphicon-home"></span>
 
+                                <h3>Site Visits</h3>
 
-                    <!--Start status alert-->
-                    <div role="alert" class="alert alert-success"> <strong>تم الحفظ بنجاح!</strong> <a href="add_new_topic.html" class="alert-link">إضغط هنا</a> لاضافة موضوع جديد. </div>
-                    <div role="alert" class="alert alert-danger"> <strong>خطأ!</strong> لم يتم الحفظ. </div>
-                    <!--/End status alert-->
-
-
-                    <div class="form">
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label for="input0" class="col-sm-2 control-label bring_right left_text">عنوان الموضوع</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="input0" placeholder="عنوان الموضوع">
-                                </div>
+                                <p class="h4">55</p>
                             </div>
-                            <div class="form-group">
-                                <label for="input1" class="col-sm-2 control-label bring_right left_text">المحتوي</label>
-                                <div class="col-sm-10">
-                                    <textarea class="form-control" rows="5" id="input1" placeholder="وصف الموقع"></textarea>
-                                </div>
+
+                            <div style="background-color: #34495e">
+                                <span class="bring_right glyphicon glyphicon-phone-alt"></span>
+
+                                <h3>Users Online</h3>
+
+                                <p class="h4">55</p>
                             </div>
-                            <div class="form-group">
-                                <div class="col-sm-12 left_text">
-                                    <button type="submit" class="btn btn-danger">إضافة موضوع</button>
-                                    <button type="reset" class="btn btn-default">مسح الحقول</button>
-                                </div>
+                            <div style="background-color: #00adbc">
+                                <span class="bring_right glyphicon glyphicon-user"></span>
+
+                                <h3>All Users</h3>
+
+                                <p class="h4">55</p>
                             </div>
-                        </form>
+                            <div style="background-color: #f39c12">
+                                <span class="bring_right glyphicon glyphicon-pencil"></span>
+
+                                <h3>All Topics</h3>
+
+                                <p class="h4">55</p>
+                            </div>
+                            <div style="background-color: #2ecc71">
+                                <span class="bring_right glyphicon glyphicon-calendar"></span>
+
+                                <h3>Site Old</h3>
+
+                                <p class="h4">55</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!--/End Main content container-->
+
+
         </div>
-        <!--/End Main content container-->
-
-
+        <!--/End body container section-->
     </div>
-    <!--/End body container section-->
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-<script>tinymce.init({ selector:'textarea' });</script>
-
 <script src="js/js.js"></script>
 </body>
 

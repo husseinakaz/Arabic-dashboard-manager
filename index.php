@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class=" col-sm-4 col-xs-12 user_header_area bring_left left_text">
-            <span class="change_lang bring_left">EN</span>
+            <a href="index-en.php" class="change_lang bring_left">EN</a>
 
             <div class="user_info inline-block">
                 <img src="img/user.jpg" alt="" class="img-circle">
@@ -117,24 +117,24 @@
                 </form>
 
                 <ul>
-                    <li><span class="glyphicon glyphicon-home"></span><a href="index.html">الصفحة الرئيسية</a></li>
-                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.html">بيانات الموقع</a></li>
+                    <li><span class="glyphicon glyphicon-home"></span><a href="index.php">الصفحة الرئيسية</a></li>
+                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.php">بيانات الموقع</a></li>
                     <li><span class="glyphicon glyphicon-user"></span><a href="">إدارة الاعضاء</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_user.html">إضافة جديد</a></li>
-                            <li><a href="view_all_users.html">عرض الكل</a></li>
+                            <li><a href="add_new_user.php">إضافة جديد</a></li>
+                            <li><a href="view_all_users.php">عرض الكل</a></li>
                         </ul>
                     </li>
                     <li><span class="glyphicon glyphicon-edit"></span><a href="">المواضييع والمقالات</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_all_topics.html">عرض الكل</a></li>
+                            <li><a href="add_new_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_all_topics.php">عرض الكل</a></li>
                         </ul>
                     </li>
                     <li><span class="glyphicon glyphicon-picture"></span><a href="">البوم الصور</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_all_photos.html">عرض الكل</a></li>
+                            <li><a href="add_new_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_all_photos.php">عرض الكل</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -149,57 +149,79 @@
                 <div class="home_pass hidden-xs">
                     <ul>
                         <li class="bring_right"><span class="glyphicon glyphicon-home "></span></li>
-                        <li class="bring_right"><a href="">ألبوم الصور</a></li>
-                        <li class="bring_right"><a href="">إضافة صورة جديدة</a></li>
+                        <li class="bring_right"><a href="">الصفحة الرئيسية للوحة تحكم الموقع</a></li>
                     </ul>
                 </div>
                 <!--/End system bath-->
                 <div class="page_content">
-                    <h1 class="heading_title">إضافة صورة جديدة</h1>
+                    <div class="page_content">
+                        <div class="quick_links text-center">
+                            <h1 class="heading_title">الوصول السريع</h1>
+                            <a href="#" style="background-color: #c0392b">
+                                <h4>استعراض الموقع</h4>
+                            </a>
+                            <a href="options.php" style="background-color: #2980b9">
+                                <h4>تعديل البيانات</h4>
+                            </a>
+                            <a href="view_all_users.php" style="background-color: #8e44ad">
+                                <h4>عرض الاعضاء</h4>
+                            </a>
+                            <a href="add_new_topic.php" style="background-color: #d35400">
+                                <h4>إضافة موضوع</h4>
+                            </a>
+                            <a href="add_new_photo.php" style="background-color: #2c3e50">
+                                <h4>إضافة صورة</h4>
+                            </a>
+                        </div>
+                        <div class="home_statics text-center">
+                            <h1 class="heading_title">احصائيات عامة للموقع</h1>
 
+                            <div style="background-color: #9b59b6">
+                                <span class="bring_right glyphicon glyphicon-home"></span>
 
-                    <!--Start status alert-->
-                    <div role="alert" class="alert alert-success"> <strong>تم الحفظ بنجاح!</strong> <a href="add_new_topic.html" class="alert-link">إضغط هنا</a> لاضافة موضوع جديد. </div>
-                    <div role="alert" class="alert alert-danger"> <strong>خطأ!</strong> لم يتم الحفظ. </div>
-                    <!--/End status alert-->
+                                <h3>زيارات الموقع</h3>
 
+                                <p class="h4">55</p>
+                            </div>
 
-                    <div class="form">
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label for="input0" class="col-sm-2 control-label bring_right left_text">عنوان الصورة</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="input0" placeholder="عنوان الصورة">
-                                </div>
+                            <div style="background-color: #34495e">
+                                <span class="bring_right glyphicon glyphicon-phone-alt"></span>
+
+                                <h3>المتصلين الان</h3>
+
+                                <p class="h4">55</p>
                             </div>
-                            <div class="form-group">
-                                <label for="input1" class="col-sm-2 control-label bring_right left_text">وصف الصورة</label>
-                                <div class="col-sm-10">
-                                    <textarea class="form-control" rows="3" id="input1" placeholder="وصف الموقع"></textarea>
-                                </div>
+                            <div style="background-color: #00adbc">
+                                <span class="bring_right glyphicon glyphicon-user"></span>
+
+                                <h3>عدد الاعضاء</h3>
+
+                                <p class="h4">55</p>
                             </div>
-                            <div class="form-group">
-                                <label for="input4" class="col-sm-2 control-label bring_right left_text">رفع الصورة</label>
-                                <div class="col-sm-10">
-                                    <input type="file" class="form-control" style="height: unset;" id="input4" multiple>
-                                </div>
+                            <div style="background-color: #f39c12">
+                                <span class="bring_right glyphicon glyphicon-pencil"></span>
+
+                                <h3>عدد المقالات</h3>
+
+                                <p class="h4">55</p>
                             </div>
-                            <div class="form-group">
-                                <div class="col-sm-12 left_text">
-                                    <button type="submit" class="btn btn-danger">حفظ البيانات</button>
-                                    <button type="reset" class="btn btn-default">مسح الحقول</button>
-                                </div>
+                            <div style="background-color: #2ecc71">
+                                <span class="bring_right glyphicon glyphicon-calendar"></span>
+
+                                <h3>عمر الموقع بالايام</h3>
+
+                                <p class="h4">55</p>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!--/End Main content container-->
+
+
         </div>
-        <!--/End Main content container-->
-
-
+        <!--/End body container section-->
     </div>
-    <!--/End body container section-->
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->

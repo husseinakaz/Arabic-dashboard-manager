@@ -49,9 +49,9 @@
                 القائمة الرئيسية <span class="caret"></span>
             </button>
             <ul class="dropdown-menu main_menu_xs rtl text-center" role="menu">
-                <li class="text-center"><a href="index.html">الرئيسية</a></li>
+                <li class="text-center"><a href="index.php">الرئيسية</a></li>
                 <li class="divider"></li>
-                <li class="text-center"><a href="siteinfo.html">بيانات الموقع</a></li>
+                <li class="text-center"><a href="siteinfo.php">بيانات الموقع</a></li>
                 <li class="divider"></li>
                 <li class="text-center"><a href="#">إضافة عضو</a></li>
                 <li class="divider"></li>
@@ -76,10 +76,10 @@
                 <img src="img/site_logo.png" alt="">
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="index.html"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
+                    <a class="main_menu_link" href="index.php"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
                 </div>
                 <div class="panel-group">
-                    <a class="main_menu_link" href="siteinfo.html"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
+                    <a class="main_menu_link" href="siteinfo.php"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
                 </div>
 
                 <div class="panel-group" role="tablist">
@@ -88,8 +88,8 @@
                     </a>
                     <div id="users" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_users.html">إضافة عضو</a></li>
-                            <li><a href="view_users.html">عرض الاعضاء</a></li>
+                            <li><a href="add_users.php">إضافة عضو</a></li>
+                            <li><a href="view_users.php">عرض الاعضاء</a></li>
                         </ul>
                     </div>
                 </div>
@@ -101,8 +101,8 @@
                     </a>
                     <div id="cats" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_section.html">إضافة جديد</a></li>
-                            <li><a href="veiw_sections.html">عرض الكل</a></li>
+                            <li><a href="add_section.php">إضافة جديد</a></li>
+                            <li><a href="veiw_sections.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -113,8 +113,8 @@
                     </a>
                     <div id="addnew11" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_topics.html">عرض الكل</a></li>
+                            <li><a href="add_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_topics.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -125,8 +125,8 @@
                     </a>
                     <div id="image_album" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -137,8 +137,8 @@
                     </a>
                     <div id="slide" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -149,18 +149,18 @@
                     </a>
                     <div id="mailist" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="send_new_email.html">ارسال جديد</a></li>
-                            <li><a href="view_mail_messages.html">عرض الرسائل</a></li>
+                            <li><a href="send_new_email.php">ارسال جديد</a></li>
+                            <li><a href="view_mail_messages.php">عرض الرسائل</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="ads_control.html"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
+                    <a class="main_menu_link" href="ads_control.php"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="site_down.html"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
+                    <a class="main_menu_link" href="site_down.php"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
                 </div>
 
             </div>
@@ -169,63 +169,71 @@
             <!--Start Admin Panal MAin Content Right Block-->
             <div class="main_container col-lg-9 col-md-8 col-sm-9 col-xs- pull-left">
                 <div class="row main_container_head">
-                    <h4><span class="glyphicon glyphicon-user"></span>أعضاء الموقع </h4>
+                    <h4><span class="glyphicon glyphicon-link"></span>بيانات الموقع </h4>
                 </div>
 
                 <div class="row control_panal_body">
                     <!--Start Admin Panal Section Description-->
-                    <p class="page_desc">يمكنك إضافة اعضاء جدد مباشرة الي موقعك من الحقول أدناه</p>
+                    <p class="page_desc">تمكنك صفحة بيانات الموقع من تعديل اعدادات وبيانات موقعك الالكتروني. كن حريص في تعديل بيانات هذه الصفحة لان هذه التعديلات ستطبق مباشره علي موقعك الالكتروني...</p>
                     <!--End Admin Panal Section Description-->
 
 
-                    <div class="alert alert-success h5" role="alert">تمت الاضافه بنجاح</div>
-                    <div class="alert alert-danger h4" role="alert"><strong>خطأ!</strong> .. لم يتم الاضافه</div>
+                    <div class="alert alert-success h5" role="alert">تم حفظ البيانات بنجاح</div>
+                    <div class="alert alert-danger h4" role="alert"><strong>خطأ!</strong> .. لم يتم حفظ البيانات</div>
 
 
 
                     <div class="admin_index">
                         <!--Start Site Main Options and Data-->
                         <div class="panel panel-default site_info">
-                            <div class="panel-heading text-right h4">إضافة عضو جديد</div>
+                            <div class="panel-heading text-right h4">بيانات الموقع</div>
 
                             <form action="" method="post">
                                 <div class="form-group">
-                                    <label for="user_name">اسم المستخدم</label>
-                                    <input type="text" class="form-control" id="user_name" placeholder="اسم المستخدم الخاص بالعضو">
+                                    <label for="site_title">عنوان الموقع</label>
+                                    <input type="text" class="form-control" id="site_title" placeholder="العنوان او الاسم الرئيسي لموقعك الالكتروني">
                                 </div>
                                 <div class="form-group">
-                                    <label for="user_mail">البريد الالكتروني</label>
-                                    <input type="email" class="form-control" id="user_mail" placeholder="البريد الالكتروني للعضو">
+                                    <label for="site_desc">وصف الموقع</label>
+                                    <textarea rows="5" class="form-control" id="site_desc" placeholder="اوصف محتوي موقعك فيما لا يتعدي ٧٠ حرف"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <label for="user_password">كلمة المرور</label>
-                                    <input type="password" class="form-control" id="user_password" placeholder="كلمة مرور العضو">
-                                </div>
-                                <div class="form-group">
-                                    <label for="user_password">تأكيد كلمة المرور</label>
-                                    <input type="password" class="form-control" id="user_password" placeholder="كلمة مرور العضو">
+                                    <label for="site_metawords">الكلمات الدلالية</label>
+                                    <textarea rows="5" class="form-control" id="site_metawords" placeholder="الكلمات الدلاليه لموقعك فيها لا يتعدي ٢٥ كلمة"></textarea>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="site_logo">صوره شخصية</label>
+                                    <label for="site_logo">لوجو الموقع</label>
                                     <input type="file" id="site_logo">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="user_birth">تاريخ الميلاد</label>
-                                    <input type="date" class="form-control" id="user_birth" autocomplete="on">
+                                    <label for="site_email">بريد الموقع</label>
+                                    <input type="email" class="form-control" id="site_email" placeholder="البريد الالكتروني لموقعك">
                                 </div>
                                 <div class="form-group">
-                                    <label for="user_birth">النوع</label>
-                                    <select class="form-control">
-                                        <option>ذكر</option>
-                                        <option>انثي</option>
-                                    </select> 
+                                    <label for="site_facebook">صفحة الفيس بوك</label>
+                                    <input type="text" class="form-control" id="site_facebook" placeholder="رابط صفحة موقعك علي الفيس بوك">
+                                </div>
+                                <div class="form-group">
+                                    <label for="site_twitter">صفحة تويتر</label>
+                                    <input type="text" class="form-control" id="site_twitter" placeholder="رابط حساب موقعك علي تويتر">
+                                </div>
+                                <div class="form-group">
+                                    <label for="site_googlep">صفحة جوجل بلس</label>
+                                    <input type="text" class="form-control" id="site_googlep" placeholder="رابط صفحة موقعك علي جوجل بلس">
+                                </div>
+                                <div class="form-group">
+                                    <label for="site_youtube">قناة اليوتيوب</label>
+                                    <input type="text" class="form-control" id="site_youtube" placeholder="رابط قناة موقعك علي يوتيوب">
+                                </div>
+                                <div class="form-group">
+                                    <label for="site_rss">رابط rss</label>
+                                    <input type="text" class="form-control" id="site_rss" placeholder="رابط خلاصة rss">
                                 </div>
 
 
-
-                                <button type="submit" class="btn btn-default">إضافة العضو</button>
+                                <button type="submit" class="btn btn-default">حفط البيانات</button>
                                 <button type="reset" class="btn btn-default">مسح البيانات</button>
                             </form>
 

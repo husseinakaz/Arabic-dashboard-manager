@@ -117,24 +117,24 @@
                 </form>
 
                 <ul>
-                    <li><span class="glyphicon glyphicon-home"></span><a href="index.html">الصفحة الرئيسية</a></li>
-                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.html">بيانات الموقع</a></li>
+                    <li><span class="glyphicon glyphicon-home"></span><a href="index.php">الصفحة الرئيسية</a></li>
+                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.php">بيانات الموقع</a></li>
                     <li><span class="glyphicon glyphicon-user"></span><a href="">إدارة الاعضاء</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_user.html">إضافة جديد</a></li>
-                            <li><a href="view_all_users.html">عرض الكل</a></li>
+                            <li><a href="add_new_user.php">إضافة جديد</a></li>
+                            <li><a href="view_all_users.php">عرض الكل</a></li>
                         </ul>
                     </li>
                     <li><span class="glyphicon glyphicon-edit"></span><a href="">المواضييع والمقالات</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_all_topics.html">عرض الكل</a></li>
+                            <li><a href="add_new_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_all_topics.php">عرض الكل</a></li>
                         </ul>
                     </li>
                     <li><span class="glyphicon glyphicon-picture"></span><a href="">البوم الصور</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_all_photos.html">عرض الكل</a></li>
+                            <li><a href="add_new_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_all_photos.php">عرض الكل</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -154,8 +154,6 @@
                     </ul>
                 </div>
                 <!--/End system bath-->
-
-
                 <div class="page_content">
                     <h1 class="heading_title">عرض كل الاعضاء</h1>
 
@@ -164,15 +162,15 @@
                             <tr>
                                 <td>#</td>
                                 <td>الصورة</td>
-                                <td>عنوان الموضوع</td>
-                                <td>الكاتب</td>
+                                <td>اسم العضو</td>
+                                <td>البريد الالكتروني</td>
                                 <td>التحكم</td>
                             </tr>
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -183,8 +181,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -195,8 +193,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -207,8 +205,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -219,8 +217,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -231,8 +229,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -243,8 +241,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -255,8 +253,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -267,8 +265,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>
@@ -279,8 +277,8 @@
                             <tr>
                                 <td>1</td>
                                 <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>عنوان موضوع تجريبي</td>
                                 <td>Hosam Zewain</td>
+                                <td>hosam.zewain@gmail.com</td>
                                 <td>
                                     <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
                                        data-placement="top" title="تعديل"></a>

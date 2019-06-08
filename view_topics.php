@@ -49,9 +49,9 @@
                 القائمة الرئيسية <span class="caret"></span>
             </button>
             <ul class="dropdown-menu main_menu_xs rtl text-center" role="menu">
-                <li class="text-center"><a href="index.html">الرئيسية</a></li>
+                <li class="text-center"><a href="index.php">الرئيسية</a></li>
                 <li class="divider"></li>
-                <li class="text-center"><a href="siteinfo.html">بيانات الموقع</a></li>
+                <li class="text-center"><a href="siteinfo.php">بيانات الموقع</a></li>
                 <li class="divider"></li>
                 <li class="text-center"><a href="#">إضافة عضو</a></li>
                 <li class="divider"></li>
@@ -76,10 +76,10 @@
                 <img src="img/site_logo.png" alt="">
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="index.html"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
+                    <a class="main_menu_link" href="index.php"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
                 </div>
                 <div class="panel-group">
-                    <a class="main_menu_link" href="siteinfo.html"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
+                    <a class="main_menu_link" href="siteinfo.php"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
                 </div>
 
                 <div class="panel-group" role="tablist">
@@ -88,8 +88,8 @@
                     </a>
                     <div id="users" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_users.html">إضافة عضو</a></li>
-                            <li><a href="view_users.html">عرض الاعضاء</a></li>
+                            <li><a href="add_users.php">إضافة عضو</a></li>
+                            <li><a href="view_users.php">عرض الاعضاء</a></li>
                         </ul>
                     </div>
                 </div>
@@ -100,8 +100,8 @@
                     </a>
                     <div id="cats" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_section.html">إضافة جديد</a></li>
-                            <li><a href="veiw_sections.html">عرض الكل</a></li>
+                            <li><a href="add_section.php">إضافة جديد</a></li>
+                            <li><a href="veiw_sections.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -112,8 +112,8 @@
                     </a>
                     <div id="addnew11" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_topics.html">عرض الكل</a></li>
+                            <li><a href="add_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_topics.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -124,8 +124,8 @@
                     </a>
                     <div id="image_album" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -136,8 +136,8 @@
                     </a>
                     <div id="slide" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -148,18 +148,18 @@
                     </a>
                     <div id="mailist" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="send_new_email.html">ارسال جديد</a></li>
-                            <li><a href="view_mail_messages.html">عرض الرسائل</a></li>
+                            <li><a href="send_new_email.php">ارسال جديد</a></li>
+                            <li><a href="view_mail_messages.php">عرض الرسائل</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="ads_control.html"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
+                    <a class="main_menu_link" href="ads_control.php"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="site_down.html"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
+                    <a class="main_menu_link" href="site_down.php"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
                 </div>
 
             </div>

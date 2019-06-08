@@ -8,8 +8,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/icon.css" rel="stylesheet">
         <link id="css" rel="stylesheet">
-        <link rel="stylesheet" href="text_editor/themes/default.min.css" type="text/css" media="all" />
-
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -51,9 +49,9 @@
                 القائمة الرئيسية <span class="caret"></span>
             </button>
             <ul class="dropdown-menu main_menu_xs rtl text-center" role="menu">
-                <li class="text-center"><a href="index.html">الرئيسية</a></li>
+                <li class="text-center"><a href="index.php">الرئيسية</a></li>
                 <li class="divider"></li>
-                <li class="text-center"><a href="siteinfo.html">بيانات الموقع</a></li>
+                <li class="text-center"><a href="siteinfo.php">بيانات الموقع</a></li>
                 <li class="divider"></li>
                 <li class="text-center"><a href="#">إضافة عضو</a></li>
                 <li class="divider"></li>
@@ -78,10 +76,10 @@
                 <img src="img/site_logo.png" alt="">
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="index.html"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
+                    <a class="main_menu_link" href="index.php"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
                 </div>
                 <div class="panel-group">
-                    <a class="main_menu_link" href="siteinfo.html"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
+                    <a class="main_menu_link" href="siteinfo.php"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
                 </div>
 
                 <div class="panel-group" role="tablist">
@@ -90,8 +88,8 @@
                     </a>
                     <div id="users" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_users.html">إضافة عضو</a></li>
-                            <li><a href="view_users.html">عرض الاعضاء</a></li>
+                            <li><a href="add_users.php">إضافة عضو</a></li>
+                            <li><a href="view_users.php">عرض الاعضاء</a></li>
                         </ul>
                     </div>
                 </div>
@@ -99,12 +97,11 @@
                 <div class="panel-group" role="tablist">
                     <a class="main_menu_link" data-toggle="collapse" href="#cats" role="tab" aria-expanded="false" aria-controls="cats">
                         <span class="glyphicon glyphicon-folder-open menu_link_icon"></span>الفئات والاقسام<span class="caret"></span>
-
                     </a>
                     <div id="cats" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_section.html">إضافة جديد</a></li>
-                            <li><a href="veiw_sections.html">عرض الكل</a></li>
+                            <li><a href="add_section.php">إضافة جديد</a></li>
+                            <li><a href="veiw_sections.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -115,8 +112,8 @@
                     </a>
                     <div id="addnew11" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_topics.html">عرض الكل</a></li>
+                            <li><a href="add_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_topics.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -127,8 +124,8 @@
                     </a>
                     <div id="image_album" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -139,8 +136,8 @@
                     </a>
                     <div id="slide" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -151,18 +148,18 @@
                     </a>
                     <div id="mailist" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="send_new_email.html">ارسال جديد</a></li>
-                            <li><a href="view_mail_messages.html">عرض الرسائل</a></li>
+                            <li><a href="send_new_email.php">ارسال جديد</a></li>
+                            <li><a href="view_mail_messages.php">عرض الرسائل</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="ads_control.html"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
+                    <a class="main_menu_link" href="ads_control.php"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="site_down.html"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
+                    <a class="main_menu_link" href="site_down.php"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
                 </div>
 
             </div>
@@ -171,12 +168,12 @@
             <!--Start Admin Panal MAin Content Right Block-->
             <div class="main_container col-lg-9 col-md-8 col-sm-9 col-xs- pull-left">
                 <div class="row main_container_head">
-                    <h4><span class="glyphicon glyphicon-edit"></span>إضافة موضوع او صفحة جديده </h4>
+                    <h4><span class="glyphicon glyphicon-folder-open"></span>اقسام الموقع </h4>
                 </div>
 
                 <div class="row control_panal_body">
                     <!--Start Admin Panal Section Description-->
-                    <p class="page_desc">تستطيع إضافة موضوع جديد او صفحة جديده او موقعك من خلال المحرر ادناه</p>
+                    <p class="page_desc">يمكنك عرض اقسام موقعك والتحكم فيهم من الحقول ادناه</p>
                     <!--End Admin Panal Section Description-->
 
 
@@ -187,42 +184,99 @@
 
                     <div class="admin_index">
                         <!--Start Site Main Options and Data-->
-                        <div class="panel panel-default site_info">
-                            <div class="panel-heading text-right h4">إضافة موضوع جديد</div>
+                        <div class="panel panel-default view_users">
+                            <div class="panel-heading text-right h4">عرض كل الاقسام</div>
 
-                            <form action="" method="post">
-                                <div class="form-group">
-                                    <label for="topic_title">عنوان الموضوع</label>
-                                    <input type="text" class="form-control" id="topic_title" placeholder="عنوان الموضوع الرئيسي">
-                                </div>
-                                <div class="form-group">
-                                    <label for="topic_meta">كلمات دلالية</label>
-                                    <input type="text" class="form-control" id="topic_meta" placeholder="الكلمات الدلاليه للموضوع مفصولة بـ ،">
-                                </div>
-                                <div class="form-group">
-                                    <label for="topic_img">صوره رئيسية</label>
-                                    <input type="file" id="topic_img">
-                                </div>
-                                <div class="form-group">
-                                    <label for="topic_editor">الموضوع</label>
-                                    <textarea rows="5" class="form-control" id="topic_editor" placeholder="محتوي موضوعك">
-                                    </textarea>
-                                </div>
+                            <table class="table">
+                                <tr class="h4 text-center">
+                                    <td class="">#</td>
+                                    <td class="">عنوان القسم</td>
+                                    <td class="">الوصف</td>
+                                    <td class="">عدد المواضيع</td>
+                                    <td class="text-center">التحكم</td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="english">1</td>
+                                    <td>هواتف سامسونج</td>
+                                    <td>القسم الخاص بهواتف سامسونج..</td>
+                                    <td class="english">12</td>
+                                    <td class="text-center">
+                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
+                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
+                                    </td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="english">1</td>
+                                    <td>هواتف سامسونج</td>
+                                    <td>القسم الخاص بهواتف سامسونج..</td>
+                                    <td class="english">12</td>
+                                    <td class="text-center">
+                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
+                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
+                                    </td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="english">1</td>
+                                    <td>هواتف سامسونج</td>
+                                    <td>القسم الخاص بهواتف سامسونج..</td>
+                                    <td class="english">12</td>
+                                    <td class="text-center">
+                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
+                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
+                                    </td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="english">1</td>
+                                    <td>هواتف سامسونج</td>
+                                    <td>القسم الخاص بهواتف سامسونج..</td>
+                                    <td class="english">12</td>
+                                    <td class="text-center">
+                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
+                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
+                                    </td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="english">1</td>
+                                    <td>هواتف سامسونج</td>
+                                    <td>القسم الخاص بهواتف سامسونج..</td>
+                                    <td class="english">12</td>
+                                    <td class="text-center">
+                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
+                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
+                                    </td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="english">1</td>
+                                    <td>هواتف سامسونج</td>
+                                    <td>القسم الخاص بهواتف سامسونج..</td>
+                                    <td class="english">12</td>
+                                    <td class="text-center">
+                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
+                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
+                                    </td>
+                                </tr>
+                            </table>
 
-                                <div class="form-group">
-                                    <label>القسم</label>
-                                    <select class="form-control">
-                                        <option>القسم الاول</option>
-                                        <option>القسم الثاني</option>
-                                        <option>القسم الثالث</option>
-                                    </select> 
-                                </div>
 
-                                <button type="submit" class="btn btn-default">إضافة الموضوع</button>
-                                <button type="reset" class="btn btn-default">مسح البيانات</button>
-                            </form>
-
-
+                            <nav class="english text-center ltr">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
 
                         </div>
                         <!--End Site Main Options and Data-->
@@ -237,26 +291,10 @@
         <!--Start Footer-->
         <div class="container-fluid last-foot"></div>
         <!--End Footer-->
-
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/adminy.js"></script>
-        <script src="text_editor/jquery.sceditor.bbcode.min.js"></script>
-
-
-        <script>
-            $(document).ready(function () {
-                var initEditor = function () {
-                    $("textarea").sceditor({
-                        plugins: 'bbcode',
-                        style: "./minified/jquery.sceditor.default.min.css"
-                    });
-                };
-                initEditor();
-            });
-        </script>
-
     </body>
 </html>

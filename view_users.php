@@ -49,9 +49,9 @@
                 القائمة الرئيسية <span class="caret"></span>
             </button>
             <ul class="dropdown-menu main_menu_xs rtl text-center" role="menu">
-                <li class="text-center"><a href="index.html">الرئيسية</a></li>
+                <li class="text-center"><a href="index.php">الرئيسية</a></li>
                 <li class="divider"></li>
-                <li class="text-center"><a href="siteinfo.html">بيانات الموقع</a></li>
+                <li class="text-center"><a href="siteinfo.php">بيانات الموقع</a></li>
                 <li class="divider"></li>
                 <li class="text-center"><a href="#">إضافة عضو</a></li>
                 <li class="divider"></li>
@@ -76,10 +76,10 @@
                 <img src="img/site_logo.png" alt="">
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="index.html"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
+                    <a class="main_menu_link" href="index.php"><span class="glyphicon glyphicon-home menu_link_icon"></span>الصفحة الرئيسية</a>
                 </div>
                 <div class="panel-group">
-                    <a class="main_menu_link" href="siteinfo.html"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
+                    <a class="main_menu_link" href="siteinfo.php"><span class="glyphicon glyphicon-link menu_link_icon"></span>بيانات الموقع</a>
                 </div>
 
                 <div class="panel-group" role="tablist">
@@ -88,8 +88,8 @@
                     </a>
                     <div id="users" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_users.html">إضافة عضو</a></li>
-                            <li><a href="view_users.html">عرض الاعضاء</a></li>
+                            <li><a href="add_users.php">إضافة عضو</a></li>
+                            <li><a href="view_users.php">عرض الاعضاء</a></li>
                         </ul>
                     </div>
                 </div>
@@ -101,8 +101,8 @@
                     </a>
                     <div id="cats" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_section.html">إضافة جديد</a></li>
-                            <li><a href="veiw_sections.html">عرض الكل</a></li>
+                            <li><a href="add_section.php">إضافة جديد</a></li>
+                            <li><a href="veiw_sections.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -113,8 +113,8 @@
                     </a>
                     <div id="addnew11" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_topics.html">عرض الكل</a></li>
+                            <li><a href="add_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_topics.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -125,8 +125,8 @@
                     </a>
                     <div id="image_album" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -137,8 +137,8 @@
                     </a>
                     <div id="slide" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="add_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_photos.html">عرض الكل</a></li>
+                            <li><a href="add_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_photos.php">عرض الكل</a></li>
                         </ul>
                     </div>
                 </div>
@@ -149,18 +149,18 @@
                     </a>
                     <div id="mailist" class="panel-collapse collapse" role="tab" aria-expanded="false">
                         <ul class="list-group cols_item">
-                            <li><a href="send_new_email.html">ارسال جديد</a></li>
-                            <li><a href="view_mail_messages.html">عرض الرسائل</a></li>
+                            <li><a href="send_new_email.php">ارسال جديد</a></li>
+                            <li><a href="view_mail_messages.php">عرض الرسائل</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="ads_control.html"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
+                    <a class="main_menu_link" href="ads_control.php"><span class="glyphicon glyphicon-text-color menu_link_icon"></span>الاعلانات</a>
                 </div>
 
                 <div class="panel-group">
-                    <a class="main_menu_link" href="site_down.html"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
+                    <a class="main_menu_link" href="site_down.php"><span class="icon-cogs menu_link_icon"></span>تعطيل الموقع</a>
                 </div>
 
             </div>
@@ -169,118 +169,113 @@
             <!--Start Admin Panal MAin Content Right Block-->
             <div class="main_container col-lg-9 col-md-8 col-sm-9 col-xs- pull-left">
                 <div class="row main_container_head">
-                    <h4><span class="glyphicon glyphicon-picture"></span>عرض الصور </h4>
+                    <h4><span class="glyphicon glyphicon-user"></span>أعضاء الموقع </h4>
                 </div>
 
                 <div class="row control_panal_body">
                     <!--Start Admin Panal Section Description-->
-                    <p class="page_desc">يمكنك عرض صور موقعك والتحكم فيهم من الحقول ادناه</p>
+                    <p class="page_desc">يمكنك عرض اعضاء موقعك والتحكم فيهم من الحقول ادناه</p>
                     <!--End Admin Panal Section Description-->
+
+
+                    <div class="alert alert-success h5" role="alert">تمت الاضافه بنجاح</div>
+                    <div class="alert alert-danger h4" role="alert"><strong>خطأ!</strong> .. لم يتم الاضافه</div>
+
+
 
                     <div class="admin_index">
                         <!--Start Site Main Options and Data-->
-                        <div class="panel panel-default view_photo">
-                            <div class="panel-heading text-right h4">عرض كل الصور</div>
+                        <div class="panel panel-default view_users">
+                            <div class="panel-heading text-right h4">عرض كل الاعضاء</div>
 
                             <table class="table">
                                 <tr class="h4 text-center">
                                     <td class="">#</td>
                                     <td class="">صوره</td>
-                                    <td class="">اسم الصورة</td>
-                                    <td class="">وصف الصورة</td>
+                                    <td class="">اسم المستخدم</td>
+                                    <td class="">البريد الالكتروني</td>
                                     <td class="text-center">التحكم</td>
                                 </tr>
                                 <tr class="text-center">
                                     <td class="english">1</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Hosam</td>
+                                    <td>hosam.zewain@gmail.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">2</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Ahmed</td>
+                                    <td>info@roqay.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">3</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Hosam</td>
+                                    <td>hosam.zewain@gmail.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">4</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Ahmed</td>
+                                    <td>info@roqay.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">5</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Hosam</td>
+                                    <td>hosam.zewain@gmail.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">6</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Ahmed</td>
+                                    <td>info@roqay.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">7</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Hosam</td>
+                                    <td>hosam.zewain@gmail.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
                                 <tr class="text-center">
-                                    <td class="english">1</td>
+                                    <td class="english">8</td>
                                     <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
+                                    <td>Ahmed</td>
+                                    <td>info@roqay.com</td>
                                     <td class="text-center">
                                         <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
                                         <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
                                     </td>
                                 </tr>
-                                <tr class="text-center">
-                                    <td class="english">1</td>
-                                    <td><img src="img/user.jpg" alt=""></td>
-                                    <td>استضافة المواقع</td>
-                                    <td>هنا يكتب وصف الصورة المرفوعه علي الموقع...</td>
-                                    <td class="text-center">
-                                        <a href="" title="view" class="glyphicon glyphicon-zoom-in"></a>
-                                        <a href="" title="delete" class="glyphicon glyphicon-remove"></a>
-                                    </td>
-                                </tr>
-
                             </table>
 
 
@@ -317,7 +312,6 @@
         <!--Start Footer-->
         <div class="container-fluid last-foot"></div>
         <!--End Footer-->
-
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>

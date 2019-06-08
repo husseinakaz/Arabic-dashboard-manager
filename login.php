@@ -27,7 +27,7 @@
                     </div>
                     <div id="test" class="modal-body notvis">
                         ادخل اسم المستخدم او البريد الالكتروني وكلمة المرور
-                        <form method="get" action="/index.html" style="direction: ltr">
+                        <form method="get" action="/index.php" style="direction: ltr">
                             <div class="input-group input-group-lg">
                                 <input type="text" class="form-control" placeholder="اسم المستخدم" aria-describedby="username">
                                 <span class="input-group-addon glyphicon glyphicon-user" id="username"></span>
@@ -54,7 +54,7 @@
         <!--End Login From-->
         
         <!--Please Remove this <a> tag-->
-        <a href="index.html" style="text-align: center; display: block; margin-top: 50px; color: rgb(255, 0, 0); font-weight: bolder; font-size: 30px;">المتابعه لمعاينة صفحات لوحة التحكم</a>
+        <a href="index.php" style="text-align: center; display: block; margin-top: 50px; color: rgb(255, 0, 0); font-weight: bolder; font-size: 30px;">المتابعه لمعاينة صفحات لوحة التحكم</a>
         <!--Please Remove this <a> tag-->
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -117,24 +117,24 @@
                 </form>
 
                 <ul>
-                    <li><span class="glyphicon glyphicon-home"></span><a href="index.html">الصفحة الرئيسية</a></li>
-                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.html">بيانات الموقع</a></li>
+                    <li><span class="glyphicon glyphicon-home"></span><a href="index.php">الصفحة الرئيسية</a></li>
+                    <li><span class="glyphicon glyphicon-cog"></span><a href="options.php">بيانات الموقع</a></li>
                     <li><span class="glyphicon glyphicon-user"></span><a href="">إدارة الاعضاء</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_user.html">إضافة جديد</a></li>
-                            <li><a href="view_all_users.html">عرض الكل</a></li>
+                            <li><a href="add_new_user.php">إضافة جديد</a></li>
+                            <li><a href="view_all_users.php">عرض الكل</a></li>
                         </ul>
                     </li>
                     <li><span class="glyphicon glyphicon-edit"></span><a href="">المواضييع والمقالات</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_topic.html">إضافة جديد</a></li>
-                            <li><a href="view_all_topics.html">عرض الكل</a></li>
+                            <li><a href="add_new_topic.php">إضافة جديد</a></li>
+                            <li><a href="view_all_topics.php">عرض الكل</a></li>
                         </ul>
                     </li>
                     <li><span class="glyphicon glyphicon-picture"></span><a href="">البوم الصور</a>
                         <ul class="drop_main_menu">
-                            <li><a href="add_new_photo.html">إضافة جديد</a></li>
-                            <li><a href="view_all_photos.html">عرض الكل</a></li>
+                            <li><a href="add_new_photo.php">إضافة جديد</a></li>
+                            <li><a href="view_all_photos.php">عرض الكل</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -149,18 +149,18 @@
                 <div class="home_pass hidden-xs">
                     <ul>
                         <li class="bring_right"><span class="glyphicon glyphicon-home "></span></li>
-                        <li class="bring_right"><a href="">إدارة الاعضاء</a></li>
-                        <li class="bring_right"><a href="">إضافة عضو جديد</a></li>
+                        <li class="bring_right"><a href="">المواضييع والمقالات</a></li>
+                        <li class="bring_right"><a href="">إضافة موضوع جديد</a></li>
                     </ul>
                 </div>
                 <!--/End system bath-->
                 <div class="page_content">
 
-                    <h1 class="heading_title">إضافة عضو جديد</h1>
+                    <h1 class="heading_title">إضافة موضوع جديد</h1>
 
 
                     <!--Start status alert-->
-                    <div role="alert" class="alert alert-success"> <strong>تم الحفظ بنجاح!</strong> <a href="add_new_topic.html" class="alert-link">إضغط هنا</a> لاضافة موضوع جديد. </div>
+                    <div role="alert" class="alert alert-success"> <strong>تم الحفظ بنجاح!</strong> <a href="add_new_topic.php" class="alert-link">إضغط هنا</a> لاضافة موضوع جديد. </div>
                     <div role="alert" class="alert alert-danger"> <strong>خطأ!</strong> لم يتم الحفظ. </div>
                     <!--/End status alert-->
 
@@ -168,38 +168,20 @@
                     <div class="form">
                         <form class="form-horizontal">
                             <div class="form-group">
-                                <label for="input0" class="col-sm-2 control-label bring_right left_text">اسم العضو</label>
+                                <label for="input0" class="col-sm-2 control-label bring_right left_text">عنوان الموضوع</label>
                                 <div class="col-sm-10">
-                                    <input type="username" class="form-control" id="input0" placeholder="اسم العضو">
+                                    <input type="text" class="form-control" id="input0" placeholder="عنوان الموضوع">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="input2" class="col-sm-2 control-label bring_right left_text">البريد الالكتروني</label>
+                                <label for="input1" class="col-sm-2 control-label bring_right left_text">المحتوي</label>
                                 <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="input2" placeholder="البريد الالكتروني">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="input3" class="col-sm-2 control-label bring_right left_text">كلمة المرور</label>
-                                <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="input3" placeholder="كلمة المرور">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="input3" class="col-sm-2 control-label bring_right left_text">تاكيد كلمة المرور</label>
-                                <div class="col-sm-10">
-                                    <input type="confirmpassword" class="form-control" id="input3" placeholder="تاكيد كلمة المرور">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="input4" class="col-sm-2 control-label bring_right left_text">الصورة الشخصية</label>
-                                <div class="col-sm-10">
-                                    <input type="file" class="form-control" style="height: unset;" id="input4">
+                                    <textarea class="form-control" rows="5" id="input1" placeholder="وصف الموقع"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12 left_text">
-                                    <button type="submit" class="btn btn-danger">إضافة العضو</button>
+                                    <button type="submit" class="btn btn-danger">إضافة موضوع</button>
                                     <button type="reset" class="btn btn-default">مسح الحقول</button>
                                 </div>
                             </div>
@@ -218,6 +200,9 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<script>tinymce.init({ selector:'textarea' });</script>
+
 <script src="js/js.js"></script>
 </body>
 
