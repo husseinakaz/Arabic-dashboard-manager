@@ -1,3 +1,4 @@
-MSI-Hussein
-
-Acer-Hussein
+Added devices
+--------------------
+1- MSI-Hussein
+2- Acer-Hussein
