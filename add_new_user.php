@@ -9,14 +9,14 @@ include('registerer.php');
 <?php include('includes/header.php'); ?>
 </head>
 <body>
-    <!--Start navigation header-->
+         <!--Start navigation header-->
         <?php include('includes/nav_header.php'); ?>
-    <!--end of  navigation header-->
+        <!--end of  navigation header-->
 
 
-    <!--Start side bar -->
-    <?php include('includes/side_bar.php'); ?>
-    <!--end side bar-->
+        <!--Start side bar -->
+            <?php include('includes/side_bar.php'); ?>
+        <!--end side bar-->
 
         <!--Start Main content container-->
         <div class="main_content_container">
@@ -46,39 +46,33 @@ include('registerer.php');
                             <div class="form-group">
                                 <label for="input0" class="col-sm-2 control-label bring_right left_text">اسم العضو</label>
                                 <div class="col-sm-10">
-                                    <input name="username" type="username" class="form-control" id="input0" placeholder="اسم العضو">
-                                </div>
-                            </div>
+                                <input name="username" type="username" class="form-control" id="input0" placeholder="اسم العضو">
+                                </div></div>
                             <div class="form-group">
                                 <label for="input2" class="col-sm-2 control-label bring_right left_text">البريد الالكتروني</label>
                                 <div class="col-sm-10">
-                                    <input name="email" type="email" class="form-control" id="input2" placeholder="البريد الالكتروني">
-                                </div>
-                            </div>
+                                <input name="email" type="email" class="form-control" id="input2" placeholder="البريد الالكتروني">
+                                </div></div>
                             <div class="form-group">
                                 <label for="input3" class="col-sm-2 control-label bring_right left_text">كلمة المرور</label>
                                 <div class="col-sm-10">
-                                    <input name="password" type="password" class="form-control" id="input3" placeholder="كلمة المرور">
-                                </div>
-                            </div>
+                                <input name="password" type="text" class="form-control" id="input3" placeholder="كلمة المرور">
+                                </div></div>
                             <div class="form-group">
                                 <label for="input3" class="col-sm-2 control-label bring_right left_text">تاكيد كلمة المرور</label>
                                 <div class="col-sm-10">
-                                    <input name="confirmpassword" type="confirmpassword" class="form-control" id="input3" placeholder="تاكيد كلمة المرور">
-                                </div>
-                            </div>
+                                <input name="confirmpassword" type="text" class="form-control" id="input3" placeholder="تاكيد كلمة المرور">
+                                </div></div>
                             <div class="form-group">
                                 <label for="input4" class="col-sm-2 control-label bring_right left_text">الصورة الشخصية</label>
                                 <div class="col-sm-10">
-                                    <input type="file" class="form-control" style="height: unset;" id="input4">
-                                </div>
-                            </div>
+                                <input type="file" class="form-control" style="height: unset;" id="input4">
+                                </div></div>
                             <div class="form-group">
                                 <div class="col-sm-12 left_text">
                                     <button name="registerbtn" type="submit" class="btn btn-danger">إضافة العضو</button>
                                     <button type="reset" class="btn btn-default">مسح الحقول</button>
-                                </div>
-                            </div>
+                                </div></div>
                         </form>
                         <!---------------- End Registeration form    ----------------->
                     </div>
