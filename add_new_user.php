@@ -1,6 +1,6 @@
 <?php 
 
-include('include/registerer.php');
+include('registerer.php');
 
 ?>
 <!DOCTYPE html>
@@ -171,7 +171,7 @@ include('include/registerer.php');
 
                     <!---------------- start Registeration form   ----------------->
                     <div class="form">
-                        <form class="form-horizontal" action="add_new_user.php" method="post">
+                        <form class="form-horizontal" action="registerer.php" method="post">
                             <div class="form-group">
                                 <label for="input0" class="col-sm-2 control-label bring_right left_text">اسم العضو</label>
                                 <div class="col-sm-10">
