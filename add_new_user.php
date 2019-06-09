@@ -74,7 +74,7 @@ include('registerer.php');
                                     <button type="reset" class="btn btn-default">مسح الحقول</button>
                                 </div></div>
                         </form>
-                        <!---------------- End Registeration form    ----------------->
+                    <!---------------- End Registeration form    ----------------->
                     </div>
                 </div>
             </div>
