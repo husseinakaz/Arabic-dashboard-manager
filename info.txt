@@ -2,3 +2,12 @@ Added devices
 --------------------
 1- MSI-Hussein
 2- Acer-Hussein
+
+
+<?php
+if(isset($_SESSION['success']) && $_SESSION['success'] !='' )
+{
+echo '<h2> '.$_SESSION['success'].' </h2>';
+unset($_SESSION['success']);
+}
+?>
