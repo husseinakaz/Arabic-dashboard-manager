@@ -1,7 +1,5 @@
 <?php 
-
 include('registerer.php');
-
 ?>
 <!DOCTYPE html>
 <html lang="ar">
@@ -9,16 +7,15 @@ include('registerer.php');
 <?php include('includes/header.php'); ?>
 </head>
 <body>
-         <!--Start navigation header-->
-        <?php include('includes/nav_header.php'); ?>
-        <!--end of  navigation header-->
+    <!--Start navigation header-->
+    <?php include('includes/nav_header.php'); ?>
+    <!--end of  navigation header-->
+    
+    <!--Start side bar -->
+    <?php include('includes/side_bar.php'); ?>
+    <!--end side bar-->
 
-
-        <!--Start side bar -->
-            <?php include('includes/side_bar.php'); ?>
-        <!--end side bar-->
-
-        <!--Start Main content container-->
+    <!--Start Main content container-->
         <div class="main_content_container">
             <div class="main_container  main_menu_open">
                 <!--Start system bath-->
@@ -93,14 +90,13 @@ include('registerer.php');
                 </div>
             </div>
         </div>
-        <!--/End Main content container-->
+    <!--/End Main content container-->
 
 
     </div>
     <!--/End body container section-->
-</div>
-<?php include('includes/footer.php'); ?>
-</div>
+    </div>
+    <?php include('includes/footer.php'); ?>
+    </div>
 </body>
-
 </html>

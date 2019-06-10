@@ -9,11 +9,11 @@
     <?php include('includes/nav_header.php'); ?>
     <!--End navbar----->
 
-        <!--Start Side bar main menu-->
+    <!--Start Side bar main menu-->
     <?php include('includes/side_bar.php'); ?>
-        <!--/End side bar main menu-->
+    <!--/End side bar main menu-->
 
-        <!--Start Main content container-->
+    <!--Start Main content container-->
         <div class="main_content_container">
             <div class="main_container  main_menu_open">
                 <!--Start system bath-->
@@ -83,15 +83,14 @@
                 </div>
             </div>
         </div>
-        <!--/End Main content container-->
+    <!--/End Main content container-->
 
 
     </div>
     <!--/End body container section-->
-</div>
-<!-- start footer --->
-<?php include('includes/footer.php'); ?>
-<!-- end footer --->
+    </div>
+    <!-- start footer --->
+    <?php include('includes/footer.php'); ?>
+    <!-- end footer --->
 </body>
-
 </html>
