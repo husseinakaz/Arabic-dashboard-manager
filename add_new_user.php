@@ -99,11 +99,8 @@ include('registerer.php');
     </div>
     <!--/End body container section-->
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/js.js"></script>
+<?php include('includes/footer.php'); ?>
+</div>
 </body>
 
 </html>
