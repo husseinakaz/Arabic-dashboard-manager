@@ -21,18 +21,18 @@ if(isset($_POST['registerbtn']))
     if($query_run)
     {
       echo "saved";
-      $_SESSION["success"] = "Admin Profile Added";
+      $_SESSION["success"] = "تم اضافة العضو";
       header('Location: add_new_user.php');
     }
     else {
   
       echo "not saved";
-      $_SESSION["status"] = "Admin Profile NOT Added";
+      $_SESSION["status"] = "لم يتم اضافة العضو";
       header('Location: add_new_user.php');
     }
   }
     else {
-        $_SESSION['status'] = "Password and confirm Password Does not match";
+        $_SESSION['status'] = "كلة السر خاطئة او لم يتم تأكيد كلمة السر";
         header('Location: add_new_user.php');
     }
   }

@@ -36,9 +36,23 @@ include('registerer.php');
 
 
                     <!--Start status alert-->
-                    <div role="alert" class="alert alert-success"> <strong>تم الحفظ بنجاح!</strong> <a href="add_new_topic.php" class="alert-link">إضغط هنا</a> لاضافة موضوع جديد. </div>
-                    <div role="alert" class="alert alert-danger"> <strong>خطأ!</strong> لم يتم الحفظ. </div>
-                    <!--/End status alert-->
+                    
+                    <?php
+                        if(isset($_SESSION['success']) && $_SESSION['success'] !='' )
+                        {
+                            echo '<div role="alert" class="alert alert-success">
+                            <strong> '.$_SESSION['success'].' </strong></div>';
+                            unset($_SESSION['success']);
+                        }
+                 
+                    
+                        if(isset($_SESSION['status']) && $_SESSION['status'] !='' )
+                        {
+                            echo '<div role="alert" class="alert alert-danger"><strong> '.$_SESSION['status'].' </strong></div>';
+                            unset($_SESSION['status']);
+                        }
+                    ?>
+                    
 
                     <!---------------- start Registeration form   ----------------->
                     <div class="form">
