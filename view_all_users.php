@@ -154,138 +154,46 @@
                     </ul>
                 </div>
                 <!--/End system bath-->
+                
+                <?php
+                    include('includes/connection.php');
+                    $query = "SELECT * FROM register";
+                    $query_run = mysqli_query($connection, $query);
+                ?>
+                
                 <div class="page_content">
                     <h1 class="heading_title">عرض كل الاعضاء</h1>
-
                     <div class="wrap">
                         <table class="table table-bordered">
-                            <tr>
-                                <td>#</td>
-                                <td>الصورة</td>
-                                <td>اسم العضو</td>
-                                <td>البريد الالكتروني</td>
-                                <td>التحكم</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="img/user.jpg" class="img-rounded user_thumb"></td>
-                                <td>Hosam Zewain</td>
-                                <td>hosam.zewain@gmail.com</td>
-                                <td>
-                                    <a href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip"
-                                       data-placement="top" title="تعديل"></a>
-                                    <a href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip"
-                                       data-placement="top" title="حذف"></a>
-                                </td>
-                            </tr>
+                        <tr>
+                        <td>#</td>
+                        <td>اسم العضو</td>
+                        <td>الايميل</td>
+                        <td>كلمة السر</td>
+                         <td>التحكم</td>
+                    </tr>
+
+                          <?php
+
+                        if(mysqli_num_rows($query_run) > 0)
+                {
+                while($row = mysqli_fetch_assoc($query_run))
+                    {
+                 ?>
+                    <tr>
+                        <td><?php echo $row['id']; ?></td>
+                        <td><?php echo $row['username']; ?></td>
+                        <td><?php echo $row['email']; ?></td>
+                        <td><?php echo $row['password']; ?></td>
+                    </tr>
+             <?php
+        }
+
+        }else {
+                echo "no record found";
+                }
+
+                ?>
                         </table>
 
                         <nav class="text-center">

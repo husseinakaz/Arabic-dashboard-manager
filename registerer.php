@@ -2,7 +2,7 @@
 
 session_start();
 
-$connection = mysqli_connect("localhost", "root", "", "adminpanel");
+include('includes/connection.php');
 
 if(isset($_POST['registerbtn']))
  {
