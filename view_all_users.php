@@ -41,7 +41,7 @@
                         <td>اسم العضو</td>
                         <td>الايميل</td>
                         <td>كلمة السر</td>
-                         <td>التحكم</td>
+                        <td>التحكم</td>
                     </tr>
 
                           <?php
@@ -56,6 +56,10 @@
                         <td><?php echo $row['username']; ?></td>
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['password']; ?></td>
+                        <td>
+                        <button type="submit" href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="" data-original-title="تعديل"></button>
+                        <button type="submit" href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="" data-original-title="حذف"></button>
+                        </td>
                     </tr>
              <?php
         }
