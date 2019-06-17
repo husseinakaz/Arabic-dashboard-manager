@@ -57,8 +57,13 @@
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['password']; ?></td>
                         <td>
-                        <button type="submit" href="#" class="glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="" data-original-title="تعديل"></button>
+                        <form action="edit_user.php" method="post">
+                        <input type="hidden" name="edit_id" value="<?php echo $row['id']; ?>">
+                        <button type="submit" href="#" name="edit_btn" class="glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="" data-original-title="تعديل"></button>
+                        </form>
+                        <form action="" method="post">
                         <button type="submit" href="#" class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="" data-original-title="حذف"></button>
+                        </form>
                         </td>
                     </tr>
              <?php
