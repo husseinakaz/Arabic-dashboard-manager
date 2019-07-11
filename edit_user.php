@@ -44,22 +44,38 @@ include('registerer.php');
                             ?>
                             
                     <!---------------- start Registeration form   ----------------->
+                    <?php
+                        if(isset($_SESSION['success']) && $_SESSION['success'] !='' )
+                        {
+                            echo '<div role="alert" class="alert alert-success">
+                            <strong> '.$_SESSION['success'].' </strong></div>';
+                            unset($_SESSION['success']);
+                        }
+                 
+                    
+                        if(isset($_SESSION['status']) && $_SESSION['status'] !='' )
+                        {
+                            echo '<div role="alert" class="alert alert-danger"><strong> '.$_SESSION['status'].' </strong></div>';
+                            unset($_SESSION['status']);
+                        }
+                    ?>
                     <div class="form">
-                        <form class="form-horizontal" action="registerer.php" method="post">
+                        <form class="form-horizontal" action="registerer.php" method="POST">
+                            <input type="hidden" name="edit_id" value="<?php echo $row['id']; ?>">
                             <div class="form-group">
                                 <label for="input0" class="col-sm-2 control-label bring_right left_text">اسم العضو</label>
                                 <div class="col-sm-10">
-                                <input name="username" value="<?php echo $row['username']; ?>" type="username" class="form-control" id="input0" placeholder="اسم العضو">
+                                <input name="edit_username" value="<?php echo $row['username']; ?>" type="username" class="form-control" id="input0" placeholder="اسم العضو">
                                 </div></div>
                             <div class="form-group">
                                 <label for="input2" class="col-sm-2 control-label bring_right left_text">البريد الالكتروني</label>
                                 <div class="col-sm-10">
-                                <input name="email" value="<?php echo $row['email']; ?>" type="email" class="form-control" id="input2" placeholder="البريد الالكتروني">
+                                <input name="edit_email" value="<?php echo $row['email']; ?>" type="email" class="form-control" id="input2" placeholder="البريد الالكتروني">
                                 </div></div>
                             <div class="form-group">
                                 <label for="input3" class="col-sm-2 control-label bring_right left_text">كلمة المرور</label>
                                 <div class="col-sm-10">
-                                <input name="text" value="<?php echo $row['password'] ?>" type="text" class="form-control" id="input3" placeholder="كلمة المرور">
+                                <input name="edit_password" value="<?php echo $row['password'] ?>" type="text" class="form-control" id="input3" placeholder="كلمة المرور">
                                 </div></div>
                             <div class="form-group">
                                 <label for="input4" class="col-sm-2 control-label bring_right left_text">الصورة الشخصية</label>
@@ -68,15 +84,14 @@ include('registerer.php');
                                 </div></div>
                             <div class="form-group">
                                 <div class="col-sm-12 left_text">
-                                    <button name="registerbtn" type="submit" class="btn btn-danger">تحديث</button>
-                                    <button type="reset" class="btn btn-default"><a href="view_all_users.php" >الغاء</a></button>
+                                    <button name="updatebtn" type="submit" class="btn btn-danger">تحديث</button>
+                                    <button class="btn btn-default"><a href="view_all_users.php" >الغاء</a></button>
                                 </div></div>
                                 <?php
                         }
                       }
                     ?>
-                        </form>
-                        
+                        </form>    
                     <!---------------- End Registeration form    ----------------->
                     </div>
                 </div>

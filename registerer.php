@@ -49,4 +49,48 @@ if(isset($_POST['registerbtn']))
     }
   }
 
+
+  if (isset($_POST['updatebtn']))
+  {
+    $id = $_POST['edit_id'];
+    $username = $_POST['edit_username'];
+    $email = $_POST['edit_email'];
+    $password = $_POST['edit_password'];
+
+    $query = "UPDATE `register` SET `username` = '$username', `email` = '$email', `password` = '$password' WHERE `register`.`id` = '$id' ";
+    
+    $query_run = mysqli_query($connection, $query);
+
+    if ($query_run)
+    {
+      $_SESSION['success'] = "Your data is updated";
+      header('Location: view_all_users.php');
+    }
+    else
+    {
+      $_SESSION['status'] = "Your data is NOT updated";
+      header('Location: view_all_users.php');
+    }
+  }
+
+
+  if (isset($_POST['delete_btn']))
+  {
+    $id = $_POST['delete_id'];
+
+    
+    $query = "DELETE FROM `register` WHERE `register`.`id` = $id";
+    $query_run = mysqli_query($connection, $query);
+
+    if ($query_run)
+    {
+      $_SESSION['success'] = "Your data Has been deleted";
+      header('Location: view_all_users.php');
+    }
+    else
+    {
+      $_SESSION['status'] = "Your data is NOT deleted";
+      header('Location: view_all_users.php');
+    }
+  }
 ?>
